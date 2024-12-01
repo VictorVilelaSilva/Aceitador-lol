@@ -9,7 +9,7 @@ def runScript():
             pyautogui.locateOnScreen("imgs/NaFila.png",minSearchTime=20000)
             print("Buscando partida")
             sleep(1)
-            buttonLocation = pyautogui.locateOnScreen("imgs/Aceitar.png",minSearchTime=240)
+            buttonLocation = pyautogui.locateOnScreen("imgs/Aceitar.png",minSearchTime=960)
             print(f"Achou partida {time.strftime('%H:%M:%S', time.localtime())}") 
             buttonPoint = pyautogui.center(buttonLocation)
             pyautogui.click(buttonPoint)
