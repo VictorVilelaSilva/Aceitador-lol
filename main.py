@@ -13,7 +13,7 @@ def runScript():
             print(f"Achou partida {time.strftime('%H:%M:%S', time.localtime())}") 
             buttonPoint = pyautogui.center(buttonLocation)
             pyautogui.click(buttonPoint)
-            print(f"Partida Aceitada com sucesso {time.strftime('%H:%M:%S', time.localtime())}") 
+            print(f"Partida aceita com sucesso {time.strftime('%H:%M:%S', time.localtime())}") 
             sleep(1)
             pyautogui.moveTo(0,0)
             
