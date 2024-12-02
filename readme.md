@@ -27,5 +27,9 @@ O script utiliza a biblioteca `pyautogui` para manipulação da interface gráfi
 ```bash
 pip install -r requirements.txt
 ```
+4. Digite o comando abaixo para iniciar o script:
+```bash
+python main.py
+```
 
    
