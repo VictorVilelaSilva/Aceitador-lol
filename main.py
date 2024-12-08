@@ -38,7 +38,7 @@ def runScript():
         print("Esta na fila")
         sleep(1)
         buttonLocation = pyautogui.locateOnScreen(
-            "imgs/Aceitar.png", minSearchTime=960, confidence=0.6
+            "imgs/Aceitar.png", minSearchTime=960, confidence=0.8
         )
         print(f"Achou partida {time.strftime('%H:%M:%S', time.localtime())}")
         buttonPoint = pyautogui.center(buttonLocation)
