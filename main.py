@@ -3,6 +3,8 @@ import pyautogui
 from time import sleep
 from threading import Thread, Event
 
+pyautogui.FAILSAFE = False
+
 
 def handleMatchType(stop_event):
     """
