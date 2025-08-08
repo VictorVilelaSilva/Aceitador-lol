@@ -72,7 +72,7 @@ def runScript(stop_event):
             f"Partida aceita com sucesso {time.strftime('%H:%M:%S', time.localtime())}"
         )
 
-        sleep(5)
+        sleep(1)
         pyautogui.moveTo(0, 0)
 
     print("Saindo do loop principal...")
